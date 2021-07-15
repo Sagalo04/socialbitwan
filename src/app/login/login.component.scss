@@ -1,0 +1,28 @@
+.o-LoginContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+mat-form-field{
+    width: 15rem;
+    margin-top: 0.5rem;
+}
+.o-LoginCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    width: fit-content;
+    height: fit-content;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    padding: 2rem;
+}
+
+.o-LoginForm{
+    display: flex;
+    flex-direction: column;
+}
